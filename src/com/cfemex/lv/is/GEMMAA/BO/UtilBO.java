@@ -2,6 +2,9 @@ package com.cfemex.lv.is.GEMMAA.BO;
 
 import com.cfemex.lv.is.GEMMAA.DAO.UtilDAO;
 import com.cfemex.lv.is.GEMMAA.Evaluado;
+import com.cfemex.lv.is.apps.intranet.Empl;
+
+import java.util.List;
 
 /**
  * Created by cfe on 07/12/2016.
@@ -9,7 +12,12 @@ import com.cfemex.lv.is.GEMMAA.Evaluado;
 public class UtilBO {
     public static UtilDAO _utilDAO = new UtilDAO();
 
-    public Evaluado getInfoEvaluado(int nip){
+    public Evaluado getInfoEvaluado(int nip) {
         return _utilDAO.getInfoEvaluado(nip);
+    }
+
+    public List<Empl> getUsuariosProyecto(String proyecto) {
+        List<Number> lista_nips_usuarios = _utilDAO.getListaNipEmpleadosProyecto(proyecto);
+        return _utilDAO.getListaEmpleadosProyecto(lista_nips_usuarios);
     }
 }

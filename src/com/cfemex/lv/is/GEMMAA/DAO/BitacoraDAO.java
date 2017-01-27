@@ -61,7 +61,6 @@ public class BitacoraDAO {
         } finally {
             q1.desconectarBD();
         }
-
     }
 
 }
