@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="GEMMAA:jar">
+    <output-path>C:/Tomcat/webapps/weborb/WEB-INF/lib</output-path>
+    <root id="archive" name="GEMMAA.jar">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="C:/Tomcat/webapps/weborb/WEB-INF/lib/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="module-output" name="GEMMAA" />
+    </root>
+  </artifact>
+</component>

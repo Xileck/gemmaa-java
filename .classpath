@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="C:/Tomcat/lib/ifxjdbc.jar"/>
+	<classpathentry kind="lib" path="C:/Tomcat/lib/jbossall-client.jar"/>
+	<classpathentry kind="lib" path="C:/Tomcat/webapps/weborb/WEB-INF/lib/libslocal.jar"/>
+	<classpathentry kind="lib" path="C:/Tomcat/webapps/weborb/WEB-INF/lib/mail.jar"/>
+	<classpathentry kind="output" path="out/production/GEMMAA"/>
+</classpath>
