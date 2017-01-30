@@ -16,8 +16,4 @@ public class UtilBO {
         return _utilDAO.getInfoEvaluado(nip);
     }
 
-    public List<Empl> getUsuariosProyecto(String proyecto) {
-        List<Number> lista_nips_usuarios = _utilDAO.getListaNipEmpleadosProyecto(proyecto);
-        return _utilDAO.getListaEmpleadosProyecto(lista_nips_usuarios);
-    }
 }
