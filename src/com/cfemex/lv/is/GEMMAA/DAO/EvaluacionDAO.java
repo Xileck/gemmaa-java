@@ -15,6 +15,15 @@ import java.util.List;
  */
 public class EvaluacionDAO {
 
+    public static EvaluacionDAO instance = null;
+
+    public static EvaluacionDAO getInstance() {
+        if (instance == null) {
+            instance = new EvaluacionDAO();
+        }
+        return instance;
+    }
+
     public void crearEvaluacion(Evaluacion _evaluacion) {
         Informix q1 = new Informix("GEMMAA360", "Informix/GEMMAA360");
         StringBuilder qry = new StringBuilder();

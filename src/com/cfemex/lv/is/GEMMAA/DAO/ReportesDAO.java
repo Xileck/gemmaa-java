@@ -12,10 +12,14 @@ import java.util.*;
  * Created by cfe on 05/01/2017.
  */
 public class ReportesDAO {
-    public static EmpleadoDAO _empleadoDAO = new EmpleadoDAO();
-    public static UtilBO _utilBO = new UtilBO();
-    public static EncuestaDAO _encuestaDAO = new EncuestaDAO();
-    public static ReportesDAO _reporteDAO = new ReportesDAO();
+
+    public static ReportesDAO instance = null;
+    public static ReportesDAO getInstance() {
+        if (instance == null) {
+            instance = new ReportesDAO();
+        }
+        return instance;
+    }
 
     public List<Number> getIdEvaluaciones(int nip_usuario) {
         Informix q1 = new Informix("GEMMAA360", "Informix/GEMMAA360");
@@ -127,7 +131,7 @@ public class ReportesDAO {
                 grupoEvaluacion.setDescripcionEncuesta(rs.getString(4));
                 grupoEvaluacion.setFecha(rs.getString(5));
                 grupoEvaluacion.setFinalizada(rs.getString(6));
-                grupoEvaluacion.setPonderados(_reporteDAO.getPonderadosEvaluacion(rs.getInt(7)));
+                grupoEvaluacion.setPonderados(ReportesDAO.getInstance().getPonderadosEvaluacion(rs.getInt(7)));
             }
 
 
@@ -163,7 +167,7 @@ public class ReportesDAO {
                 consulta.setId_evaluador(rs.getInt(3));
                 consulta.setFinalizo(rs.getString(4));
                 consulta.setFecha(rs.getString(5));
-                consulta.setEmpleado(_empleadoDAO.seleccionarEmpleado(_utilBO.getInfoEvaluado(consulta.getNip_evaluador()).getRpe()));
+                consulta.setEmpleado(EmpleadoDAO.getInstance().seleccionarEmpleado(UtilDAO.getInstance().getInfoEvaluado(consulta.getNip_evaluador()).getRpe()));
                 evaluadores.add(consulta);
             }
 
@@ -213,12 +217,12 @@ public class ReportesDAO {
 
     public Encuesta getEvaluacionContestada(int id_tipo_encuesta, int id_evaluador) {
         Encuesta encuesta = new Encuesta();
-        encuesta.setNombre(_encuestaDAO.getNombreEncuesta(id_tipo_encuesta));
-        encuesta.setNombre(_encuestaDAO.getNombreEncuesta(id_tipo_encuesta));
+        encuesta.setNombre(EncuestaDAO.getInstance().getNombreEncuesta(id_tipo_encuesta));
+        encuesta.setNombre(EncuestaDAO.getInstance().getNombreEncuesta(id_tipo_encuesta));
         encuesta.setIdEncuesta(id_tipo_encuesta);
-        encuesta.setResultados_esperados(_encuestaDAO.getResultadosEsperadosEncuesta(id_tipo_encuesta));
-        encuesta.setAtributos(_encuestaDAO.getAtributosEncuesta(id_tipo_encuesta));
-        encuesta.setListaCRE(_encuestaDAO.getComportamientosReactivosEscalaRespuesta(id_tipo_encuesta, id_evaluador));
+        encuesta.setResultados_esperados(EncuestaDAO.getInstance().getResultadosEsperadosEncuesta(id_tipo_encuesta));
+        encuesta.setAtributos(EncuestaDAO.getInstance().getAtributosEncuesta(id_tipo_encuesta));
+        encuesta.setListaCRE(EncuestaDAO.getInstance().getComportamientosReactivosEscalaRespuesta(id_tipo_encuesta, id_evaluador));
         return encuesta;
     }
 }

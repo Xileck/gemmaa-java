@@ -9,13 +9,12 @@ import java.util.List;
  * Created by cfe on 14/11/2016.
  */
 public class BitacoraBO {
-    public static BitacoraDAO bitacoraDAO = new BitacoraDAO();
 
     public List<RegistroBitacora> getCatalogoEncuesta() {
-        return bitacoraDAO.getTodosRegistrosBitacora();
+        return BitacoraDAO.getInstance().getTodosRegistrosBitacora();
     }
 
     public void insertarRegistroBitacora(RegistroBitacora registro) {
-        bitacoraDAO.insertarRegistroBitacora(registro);
+        BitacoraDAO.getInstance().insertarRegistroBitacora(registro);
     }
 }

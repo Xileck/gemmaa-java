@@ -9,6 +9,15 @@ public class Ponderados {
     int par;
     int colaborador;
     int cliente;
+    int idp;
+
+    public int getIdp() {
+        return idp;
+    }
+
+    public void setIdp(int idp) {
+        this.idp = idp;
+    }
 
     public int getCliente() {
         return cliente;

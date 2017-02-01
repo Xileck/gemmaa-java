@@ -13,24 +13,22 @@ import java.util.List;
  */
 public class EvaluacionBO {
 
-    public static EvaluacionDAO _evaluacionDAO = new EvaluacionDAO();
-
     public void crearEvaluacion(Evaluacion _evaluacion, List<Evaluador> _listaEvaluadores) {
 
-        _evaluacionDAO.crearEvaluacion(_evaluacion);
+        EvaluacionDAO.getInstance().crearEvaluacion(_evaluacion);
 
         for (Evaluador e : _listaEvaluadores) {
-            _evaluacionDAO.asignarEvaluador(e);
+            EvaluacionDAO.getInstance().asignarEvaluador(e);
         }
     }
 
     public List<EvaluacionPendiente> evaluacionesPendientes(int nip_evaluador) {
 
-        return _evaluacionDAO.evaluacionesPendientes(nip_evaluador);
+        return EvaluacionDAO.getInstance().evaluacionesPendientes(nip_evaluador);
     }
 
     public boolean evaluacionFinalizada(int id_evaluacion) {
-        return _evaluacionDAO.evaluacionFinalizada(id_evaluacion);
+        return EvaluacionDAO.getInstance().evaluacionFinalizada(id_evaluacion);
     }
 
 }

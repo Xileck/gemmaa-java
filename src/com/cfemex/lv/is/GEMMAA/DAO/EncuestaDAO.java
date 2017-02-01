@@ -1,10 +1,6 @@
 package com.cfemex.lv.is.GEMMAA.DAO;
 
-import com.cfemex.lv.is.GEMMAA.Atributo;
-import com.cfemex.lv.is.GEMMAA.ComportamientoReactivoEscala;
-import com.cfemex.lv.is.GEMMAA.Encuesta;
-import com.cfemex.lv.is.GEMMAA.Resultado_Esperado;
-import com.cfemex.lv.is.GEMMAA.TipoEncuesta;
+import com.cfemex.lv.is.GEMMAA.*;
 import com.cfemex.lv.libs.informix.Informix;
 
 import java.sql.ResultSet;
@@ -18,6 +14,64 @@ import java.util.List;
 
 public class EncuestaDAO {
 
+    public static EncuestaDAO instance = null;
+
+    public static EncuestaDAO getInstance() {
+        if (instance == null) {
+            instance = new EncuestaDAO();
+        }
+        return instance;
+    }
+
+    public List<Ponderados> getListaPonderados() {
+        Informix q1 = new Informix("GEMMAA360", "Informix/GEMMAA360");
+        List<Ponderados> list = new ArrayList<Ponderados>();
+        ResultSet rs = null;
+
+        StringBuilder qry = new StringBuilder();
+        qry.append(" SELECT * ");
+        qry.append(" FROM gemmaa_ponderados; ");
+
+        try {
+            q1.setQry(qry.toString());
+            q1.setPreparaSelect();
+            rs = q1.getSelect();
+
+            while (rs.next()) {
+                Ponderados p = new Ponderados();
+                p.setIdp(rs.getInt(1));
+                p.setJefe(rs.getInt(2));
+                p.setColaborador(rs.getInt(3));
+                p.setPar(rs.getInt(4));
+                p.setEvaluado(rs.getInt(5));
+                p.setCliente(rs.getInt(6));
+                list.add(p);
+            }
+
+
+        } catch (Exception ex) {
+
+        } finally {
+            q1.desconectarBD();
+        }
+        return list;
+    }
+
+    public void insertarPonderados(Ponderados ponderados) {
+        Informix q1 = new Informix("GEMMAA360", "Informix/GEMMAA360");
+        StringBuilder qry = new StringBuilder();
+        qry.append(" INSERT INTO gemmaa_ponderados (idp, evaluado,jefe,par,colaborador,cliente ) ");
+        qry.append(" VALUES ((SELECT MAX(idp) + 1 FROM gemmaa_ponderados), " + ponderados.getEvaluado() + ", " + ponderados.getJefe() + ", " + ponderados.getPar() + ", " + ponderados.getColaborador() + ", " + ponderados.getCliente() + "); ");
+
+        try {
+            q1.setQrypreparaUpdate(qry.toString());
+            q1.getInsert();
+        } catch (Exception ex) {
+
+        } finally {
+            q1.desconectarBD();
+        }
+    }
 
     public String getNombreEncuesta(int id_tipo_encuesta) {
         Informix q1 = new Informix("GEMMAA360", "Informix/GEMMAA360");

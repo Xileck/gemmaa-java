@@ -2,7 +2,9 @@ package com.cfemex.lv.is.GEMMAA.DAO;
 
 import com.cfemex.lv.Area;
 import com.cfemex.lv.Empleado;
+import com.cfemex.lv.is.GEMMAA.BO.UtilBO;
 import com.cfemex.lv.is.GEMMAA.Evaluado;
+import com.cfemex.lv.is.GEMMAA.Ponderados;
 import com.cfemex.lv.is.apps.intranet.Empl;
 import com.cfemex.lv.is.apps.intranet.EmplDAO;
 import com.cfemex.lv.libs.informix.Informix;
@@ -17,6 +19,15 @@ import com.cfemex.lv.libs.Utilerias;
  * Created by cfe on 07/12/2016.
  */
 public class UtilDAO {
+
+    public static UtilDAO instance = null;
+
+    public static UtilDAO getInstance() {
+        if (instance == null) {
+            instance = new UtilDAO();
+        }
+        return instance;
+    }
 
     public Evaluado getInfoEvaluado(int nip) {
         Informix q1 = new Informix("GEMMAA360", "Informix/Libsflex");

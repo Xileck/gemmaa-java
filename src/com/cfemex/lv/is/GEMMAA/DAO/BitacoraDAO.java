@@ -11,6 +11,15 @@ import java.util.List;
  * Created by JCDI on 11/11/2016.
  */
 public class BitacoraDAO {
+
+    public static BitacoraDAO instance = null;
+    public static BitacoraDAO getInstance() {
+        if (instance == null) {
+            instance = new BitacoraDAO();
+        }
+        return instance;
+    }
+
     public List<RegistroBitacora> getTodosRegistrosBitacora() {
         Informix q1 = new Informix("GEMMAA360", "Informix/GEMMAA360");
         RegistroBitacora consulta = null;
