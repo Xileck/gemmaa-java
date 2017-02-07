@@ -333,21 +333,7 @@ public class EncuestaDAO {
     }
 
 
-//    public void guardarEncuestaContestada(int ide, int id_evaluador, String respuesta) {
-//        Informix q1 = new Informix("GEMMAA360", "Informix/GEMMAA360");
-//        StringBuilder qry = new StringBuilder();
-//
-//        qry.append(" INSERT INTO gemmaa_respuestas(idr,ide,id_evaluador,respuesta) VALUES ((SELECT MAX(idr) + 1 FROM gemmaa_respuestas)," + ide + "," + id_evaluador + ",'" + respuesta + "'); ");
-//
-//        try {
-//            q1.setQrypreparaUpdate(qry.toString());
-//            q1.getInsert();
-//        } catch (Exception ex) {
-//
-//        } finally {
-//            q1.desconectarBD();
-//        }
-//    }
+
 
     public void actualizarRegistroCRE(ComportamientoReactivoEscala cre) {
         Informix q1 = new Informix("GEMMAA360", "Informix/GEMMAA360");
@@ -435,33 +421,6 @@ public class EncuestaDAO {
 
 
     }
-/*
-    public void editarEncuesta(Encuesta encuesta) {
-        Informix q1 = new Informix("GEMMAA", "Informix/Practicas");
-        StringBuilder qry = new StringBuilder();
-        qry.append(" UPDATE tipo_encuestas SET  tipo_encuestas.descripcion = '" + "prueba2" + "' where idte = 1 ");
-        for (int i = 0;  i < encuesta.getResultado_esperados().size() ; i++) {
-            qry.append(" UPDATE resultado_esperado ");
-            qry.append(" SET resultado_esperado.descripcion = 'prueba2' ");
-            qry.append(" where idte = 1 ");
-           *//* for (Atributo atr : re.getAtributos()) {
-                qry.append("  ");
-                for (ComportamientoReactivoEscala CRE : atr.getComportamientoReactivoEscalas()) {
-                    qry.append("  ");
-                }
-            }*//*
-        }
-        qry.append("  ");
-        try {
-            q1.setQry(qry.toString());
-            q1.setPreparaUpdate();
-            q1.getUpdate();
-        } catch (Exception ex) {
 
-        } finally {
-            q1.desconectarBD();
-        }
-
-    }*/
 
 }
