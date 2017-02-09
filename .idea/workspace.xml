@@ -21,31 +21,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Resultado_Esperado.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/cfemex/lv/is/GEMMAA/Resultado_Esperado.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ComportamientoReactivoEscala.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/cfemex/lv/is/GEMMAA/ComportamientoReactivoEscala.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="17" lean-forward="true" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Encuesta.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/cfemex/lv/is/GEMMAA/Encuesta.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="238">
-              <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -75,156 +55,11 @@
                 <node x="1182.3628246753244" y="628.0">com.cfemex.lv.is.GEMMAA.BO</node>
               </nodes>
               <notes />
-              <edges>
-                <edge source="com.cfemex.lv.is.GEMMAA.DAO" target="com.cfemex.lv.is.GEMMAA.RegistroBitacora">
-                  <point x="0.0" y="-14.5" />
-                  <point x="816.5083874458875" y="1064.0" />
-                  <point x="808.0" y="1064.0" />
-                  <point x="0.0" y="124.5" />
-                </edge>
-                <edge source="com.cfemex.lv.is.GEMMAA.Promedios" target="com.cfemex.lv.is.GEMMAA.Resultado_Esperado">
-                  <point x="-115.66666666666674" y="-47.5" />
-                  <point x="1059.504193722944" y="331.0" />
-                  <point x="619.6128246753244" y="331.0" />
-                  <point x="0.0" y="47.5" />
-                </edge>
-                <edge source="com.cfemex.lv.is.GEMMAA.Encuesta" target="com.cfemex.lv.is.GEMMAA.ComportamientoReactivoEscala">
-                  <point x="0.0" y="-69.5" />
-                  <point x="1562.1708603896104" y="301.0" />
-                  <point x="1473.5997023809527" y="301.0" />
-                  <point x="0.0" y="135.5" />
-                </edge>
-                <edge source="com.cfemex.lv.is.GEMMAA.DAO" target="com.cfemex.lv.is.GEMMAA.EvaluacionPendiente">
-                  <point x="-28.363636363636374" y="-14.5" />
-                  <point x="788.1447510822511" y="1094.0" />
-                  <point x="303.5" y="1094.0" />
-                  <point x="0.0" y="102.5" />
-                </edge>
-                <edge source="com.cfemex.lv.is.GEMMAA.DAO" target="com.cfemex.lv.is.GEMMAA.Atributo">
-                  <point x="47.27272727272725" y="-14.5" />
-                  <point x="863.7811147186147" y="1114.0" />
-                  <point x="1826.8875811688313" y="1114.0" />
-                  <point x="1826.8875811688313" y="331.0" />
-                  <point x="1905.6603084415588" y="331.0" />
-                  <point x="76.0" y="69.5" />
-                </edge>
-                <edge source="com.cfemex.lv.is.GEMMAA.GrupoEvaluacion" target="com.cfemex.lv.is.GEMMAA.Ponderados">
-                  <point x="-112.33333333333326" y="-124.5" />
-                  <point x="1041.1666666666667" y="770.0" />
-                  <point x="555.0" y="770.0" />
-                  <point x="51.25" y="80.5" />
-                </edge>
-                <edge source="com.cfemex.lv.is.GEMMAA.DAO" target="com.cfemex.lv.is.GEMMAA.ComportamientoReactivoEscala">
-                  <point x="37.81818181818187" y="-14.5" />
-                  <point x="854.3265692640693" y="1104.0" />
-                  <point x="1766.1708603896104" y="1104.0" />
-                  <point x="1766.1708603896104" y="301.0" />
-                  <point x="1580.9330357142858" y="301.0" />
-                  <point x="107.33333333333326" y="135.5" />
-                </edge>
-                <edge source="com.cfemex.lv.is.GEMMAA.GrupoEvaluacion" target="com.cfemex.lv.is.GEMMAA.Promedios">
-                  <point x="0.0" y="-124.5" />
-                  <point x="1153.5" y="520.0" />
-                  <point x="1088.4208603896104" y="520.0" />
-                  <point x="-86.75" y="47.5" />
-                </edge>
-                <edge source="com.cfemex.lv.is.GEMMAA.DAO" target="com.cfemex.lv.is.GEMMAA.Encuesta">
-                  <point x="28.363636363636374" y="-14.5" />
-                  <point x="844.8720238095239" y="1094.0" />
-                  <point x="1720.1852002164503" y="1094.0" />
-                  <point x="1720.1852002164503" y="520.0" />
-                  <point x="1691.1708603896104" y="520.0" />
-                  <point x="129.0" y="69.5" />
-                </edge>
-                <edge source="com.cfemex.lv.is.GEMMAA.DAO" target="com.cfemex.lv.is.GEMMAA.Ponderados">
-                  <point x="-18.909090909090878" y="-14.5" />
-                  <point x="797.5992965367966" y="1084.0" />
-                  <point x="452.5" y="1084.0" />
-                  <point x="-51.25" y="80.5" />
-                </edge>
-                <edge source="com.cfemex.lv.is.GEMMAA.DAO" target="com.cfemex.lv.is.GEMMAA.GrupoEvaluacion">
-                  <point x="9.454545454545496" y="-14.5" />
-                  <point x="825.962932900433" y="1074.0" />
-                  <point x="1153.5" y="1074.0" />
-                  <point x="0.0" y="124.5" />
-                </edge>
-                <edge source="com.cfemex.lv.is.GEMMAA.DAO" target="com.cfemex.lv.is.GEMMAA.TipoEncuesta">
-                  <point x="-9.454545454545496" y="-14.5" />
-                  <point x="807.053841991342" y="1074.0" />
-                  <point x="547.0" y="1074.0" />
-                  <point x="0.0" y="36.5" />
-                </edge>
-                <edge source="com.cfemex.lv.is.GEMMAA.GrupoEvaluacion" target="com.cfemex.lv.is.GEMMAA.Evaluador">
-                  <point x="112.33333333333326" y="-124.5" />
-                  <point x="1265.8333333333333" y="770.0" />
-                  <point x="1493.4208603896104" y="770.0" />
-                  <point x="-64.0" y="102.5" />
-                </edge>
-                <edge source="com.cfemex.lv.is.GEMMAA.Evaluador" target="com.cfemex.lv.is.GEMMAA.Encuesta">
-                  <point x="0.0" y="-102.5" />
-                  <point x="1557.4208603896104" y="520.0" />
-                  <point x="1562.1708603896104" y="520.0" />
-                  <point x="0.0" y="69.5" />
-                </edge>
-                <edge source="com.cfemex.lv.is.GEMMAA.Encuesta" target="com.cfemex.lv.is.GEMMAA.Atributo">
-                  <point x="129.0" y="-69.5" />
-                  <point x="1691.1708603896104" y="321.0" />
-                  <point x="1829.6603084415588" y="321.0" />
-                  <point x="0.0" y="69.5" />
-                </edge>
-                <edge source="com.cfemex.lv.is.GEMMAA.Promedios" target="com.cfemex.lv.is.GEMMAA.ComportamientoReactivoEscala">
-                  <point x="0.0" y="-47.5" />
-                  <point x="1175.1708603896104" y="301.0" />
-                  <point x="1366.2663690476193" y="301.0" />
-                  <point x="-107.33333333333326" y="135.5" />
-                </edge>
-                <edge source="com.cfemex.lv.is.GEMMAA.DAO" target="com.cfemex.lv.is.GEMMAA.Resultado_Esperado">
-                  <point x="-37.81818181818187" y="-14.5" />
-                  <point x="778.6902056277056" y="1104.0" />
-                  <point x="154.5" y="1104.0" />
-                  <point x="154.5" y="331.0" />
-                  <point x="556.9461580086578" y="331.0" />
-                  <point x="-62.66666666666663" y="47.5" />
-                </edge>
-                <edge source="com.cfemex.lv.is.GEMMAA.BO" target="com.cfemex.lv.is.GEMMAA.Promedios">
-                  <point x="-23.75" y="-14.5" />
-                  <point x="1206.1128246753244" y="510.0" />
-                  <point x="1261.9208603896104" y="510.0" />
-                  <point x="86.75" y="47.5" />
-                </edge>
-                <edge source="com.cfemex.lv.is.GEMMAA.BO" target="com.cfemex.lv.is.GEMMAA.Encuesta">
-                  <point x="23.75" y="-14.5" />
-                  <point x="1253.6128246753244" y="520.0" />
-                  <point x="1433.1708603896104" y="520.0" />
-                  <point x="-129.0" y="69.5" />
-                </edge>
-                <edge source="com.cfemex.lv.is.GEMMAA.Encuesta" target="com.cfemex.lv.is.GEMMAA.Resultado_Esperado">
-                  <point x="-129.0" y="-69.5" />
-                  <point x="1433.1708603896104" y="291.0" />
-                  <point x="682.279491341991" y="291.0" />
-                  <point x="62.66666666666663" y="47.5" />
-                </edge>
-                <edge source="com.cfemex.lv.is.GEMMAA.Promedios" target="com.cfemex.lv.is.GEMMAA.Atributo">
-                  <point x="115.66666666666674" y="-47.5" />
-                  <point x="1290.8375270562774" y="311.0" />
-                  <point x="1753.6603084415588" y="311.0" />
-                  <point x="-76.0" y="69.5" />
-                </edge>
-                <edge source="com.cfemex.lv.is.GEMMAA.DAO" target="com.cfemex.lv.is.GEMMAA.Evaluador">
-                  <point x="18.909090909090878" y="-14.5" />
-                  <point x="835.4174783549784" y="1084.0" />
-                  <point x="1621.4208603896104" y="1084.0" />
-                  <point x="64.0" y="102.5" />
-                </edge>
-                <edge source="com.cfemex.lv.is.GEMMAA.DAO" target="com.cfemex.lv.is.GEMMAA.Evaluado">
-                  <point x="-47.27272727272725" y="-14.5" />
-                  <point x="769.2356601731602" y="1114.0" />
-                  <point x="72.0" y="1114.0" />
-                  <point x="0.0" y="47.5" />
-                </edge>
-              </edges>
-              <settings layout="Hierarchic Group" zoom="0.5125989920806335" x="386.74719101123594" y="458.2022471910112" />
-              <SelectedNodes />
+              <edges />
+              <settings layout="Hierarchic Group" zoom="0.5125989920806335" x="387.0" y="458.0" />
+              <SelectedNodes>
+                <node>com.cfemex.lv.is.GEMMAA.DAO</node>
+              </SelectedNodes>
               <Categories>
                 <Category>Properties</Category>
               </Categories>
@@ -237,14 +72,14 @@
       <file leaf-file-name="GrupoEvaluacion.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/cfemex/lv/is/GEMMAA/GrupoEvaluacion.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="317">
+            <state relative-caret-position="357">
               <caret line="26" column="31" lean-forward="false" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JAVA/com.cfemex.lv.is.GEMMAA.GrupoEvaluacion" pinned="false" current-in-tab="true">
+      <file leaf-file-name="JAVA/com.cfemex.lv.is.GEMMAA.GrupoEvaluacion" pinned="false" current-in-tab="false">
         <entry file="uml://JAVA/com.cfemex.lv.is.GEMMAA.GrupoEvaluacion">
           <provider selected="true" editor-type-id="UmlEditorProvider">
             <state>
@@ -260,10 +95,42 @@
               <notes />
               <edges />
               <settings layout="Hierarchic Group" zoom="1.0" x="336.0" y="327.0" />
-              <SelectedNodes />
+              <SelectedNodes>
+                <node>com.cfemex.lv.is.GEMMAA.BO.ReportesBO</node>
+              </SelectedNodes>
               <Categories />
               <SCOPE>All</SCOPE>
               <VISIBILITY>public</VISIBILITY>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BitacoraBO.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/cfemex/lv/is/GEMMAA/BO/BitacoraBO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="17" column="33" lean-forward="false" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BitacoraDAO.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/cfemex/lv/is/GEMMAA/DAO/BitacoraDAO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="237">
+              <caret line="24" column="19" lean-forward="false" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RegistroBitacora.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/cfemex/lv/is/GEMMAA/RegistroBitacora.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-358">
+              <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -288,21 +155,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Evaluado.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/cfemex/lv/is/GEMMAA/Evaluado.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Evaluador.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/cfemex/lv/is/GEMMAA/Evaluador.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="272">
-              <caret line="16" column="16" lean-forward="true" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+              <caret line="16" column="16" lean-forward="false" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -345,6 +202,7 @@
         <option value="$PROJECT_DIR$/src/com/cfemex/lv/is/GEMMAA/Ponderados.java" />
         <option value="$PROJECT_DIR$/src/com/cfemex/lv/is/GEMMAA/DAO/EncuestaDAO.java" />
         <option value="$PROJECT_DIR$/src/com/cfemex/lv/is/GEMMAA/Encuesta.java" />
+        <option value="$PROJECT_DIR$/src/com/cfemex/lv/is/GEMMAA/RegistroBitacora.java" />
       </list>
     </option>
   </component>
@@ -375,8 +233,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="Scratches" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -453,13 +311,13 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../GEMMAA_CLI" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -874,11 +732,12 @@
       <workItem from="1485957837083" duration="18000" />
       <workItem from="1485960196642" duration="7332000" />
       <workItem from="1486489004029" duration="5950000" />
+      <workItem from="1486671976178" duration="60000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34824000" />
+    <option name="totallyTimeSpent" value="34884000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
@@ -892,28 +751,28 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32985657" sideWeight="0.51111114" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32985657" sideWeight="0.4888889" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32985657" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32985657" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32985657" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32985657" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32985657" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -940,17 +799,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/cfemex/lv/is/GEMMAA/BO/UtilBO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="20" column="71" lean-forward="false" selection-start-line="20" selection-start-column="71" selection-end-line="20" selection-end-column="71" />
-          <folding>
-            <element signature="e#537#538#0" expanded="false" />
-            <element signature="e#602#603#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/cfemex/lv/is/GEMMAA/DAO/BitacoraDAO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="918">
@@ -959,14 +807,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Test.java" />
     <entry file="file://$PROJECT_DIR$/src/com/cfemex/lv/is/GEMMAA/BO/BitacoraBO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -1016,14 +857,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Test.java" />
     <entry file="file://$PROJECT_DIR$/src/com/cfemex/lv/is/GEMMAA/BO/BitacoraBO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -1113,14 +947,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/cfemex/lv/is/GEMMAA/DAO/SeguridadDAO.java" />
     <entry file="file://$PROJECT_DIR$/src/com/cfemex/lv/is/GEMMAA/BO/SeguridadBO.java" />
-    <entry file="file://$PROJECT_DIR$/src/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="16" column="3" lean-forward="false" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Test.java" />
     <entry file="jar://C:/Tomcat/webapps/weborb/WEB-INF/lib/libslocal.jar!/com/cfemex/lv/Empleado.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
@@ -1136,19 +963,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/cfemex/lv/is/GEMMAA/BO/BitacoraBO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="17" column="33" lean-forward="false" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/cfemex/lv/is/GEMMAA/BO/EvaluacionBO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
           <caret line="30" column="42" lean-forward="false" selection-start-line="30" selection-start-column="42" selection-end-line="30" selection-end-column="42" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1164,14 +982,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3706">
           <caret line="224" column="54" lean-forward="false" selection-start-line="224" selection-start-column="54" selection-end-line="224" selection-end-column="54" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/cfemex/lv/is/GEMMAA/DAO/BitacoraDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="14" column="1" lean-forward="false" selection-start-line="14" selection-start-column="1" selection-end-line="20" selection-end-column="5" />
           <folding />
         </state>
       </provider>
@@ -1212,11 +1022,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="13" column="25" lean-forward="false" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
-          <folding>
-            <element signature="e#248#249#0" expanded="false" />
-            <element signature="e#283#284#0" expanded="false" />
-            <element signature="e#313#314#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1250,7 +1055,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1265,7 +1069,7 @@
     <entry file="file://$PROJECT_DIR$/src/com/cfemex/lv/is/GEMMAA/ComportamientoReactivoEscala.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="6" column="17" lean-forward="true" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+          <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
           <folding />
         </state>
       </provider>
@@ -1281,7 +1085,7 @@
     <entry file="file://$PROJECT_DIR$/src/com/cfemex/lv/is/GEMMAA/Evaluador.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
-          <caret line="16" column="16" lean-forward="true" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+          <caret line="16" column="16" lean-forward="false" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
           <folding />
         </state>
       </provider>
@@ -1310,12 +1114,12 @@
           </nodes>
           <notes />
           <edges />
-          <settings layout="Hierarchic Group" zoom="0.5000000000000001" x="731.9999999999998" y="600.9999999999999" />
+          <settings layout="Hierarchic Group" zoom="0.5000000000000001" x="732.0" y="601.0" />
           <SelectedNodes />
           <Categories>
-            <Category>Methods</Category>
             <Category>Fields</Category>
             <Category>Properties</Category>
+            <Category>Methods</Category>
           </Categories>
           <SCOPE>All</SCOPE>
           <VISIBILITY>public</VISIBILITY>
@@ -1324,7 +1128,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/cfemex/lv/is/GEMMAA/GrupoEvaluacion.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
+        <state relative-caret-position="357">
           <caret line="26" column="31" lean-forward="false" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
           <folding />
         </state>
@@ -1338,7 +1142,7 @@
           <nodes />
           <notes />
           <edges />
-          <settings layout="Hierarchic Group" zoom="0.40000000000000013" x="-150.5" y="164.9999999999999" />
+          <settings layout="Hierarchic Group" zoom="0.40000000000000013" x="-150.0" y="165.0" />
           <SelectedNodes />
           <Categories />
           <SCOPE>All</SCOPE>
@@ -1349,7 +1153,7 @@
     <entry file="file://$PROJECT_DIR$/src/com/cfemex/lv/is/GEMMAA/Encuesta.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
-          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1377,156 +1181,11 @@
             <node x="1182.3628246753244" y="628.0">com.cfemex.lv.is.GEMMAA.BO</node>
           </nodes>
           <notes />
-          <edges>
-            <edge source="com.cfemex.lv.is.GEMMAA.DAO" target="com.cfemex.lv.is.GEMMAA.RegistroBitacora">
-              <point x="0.0" y="-14.5" />
-              <point x="816.5083874458875" y="1064.0" />
-              <point x="808.0" y="1064.0" />
-              <point x="0.0" y="124.5" />
-            </edge>
-            <edge source="com.cfemex.lv.is.GEMMAA.Promedios" target="com.cfemex.lv.is.GEMMAA.Resultado_Esperado">
-              <point x="-115.66666666666674" y="-47.5" />
-              <point x="1059.504193722944" y="331.0" />
-              <point x="619.6128246753244" y="331.0" />
-              <point x="0.0" y="47.5" />
-            </edge>
-            <edge source="com.cfemex.lv.is.GEMMAA.Encuesta" target="com.cfemex.lv.is.GEMMAA.ComportamientoReactivoEscala">
-              <point x="0.0" y="-69.5" />
-              <point x="1562.1708603896104" y="301.0" />
-              <point x="1473.5997023809527" y="301.0" />
-              <point x="0.0" y="135.5" />
-            </edge>
-            <edge source="com.cfemex.lv.is.GEMMAA.DAO" target="com.cfemex.lv.is.GEMMAA.EvaluacionPendiente">
-              <point x="-28.363636363636374" y="-14.5" />
-              <point x="788.1447510822511" y="1094.0" />
-              <point x="303.5" y="1094.0" />
-              <point x="0.0" y="102.5" />
-            </edge>
-            <edge source="com.cfemex.lv.is.GEMMAA.DAO" target="com.cfemex.lv.is.GEMMAA.Atributo">
-              <point x="47.27272727272725" y="-14.5" />
-              <point x="863.7811147186147" y="1114.0" />
-              <point x="1826.8875811688313" y="1114.0" />
-              <point x="1826.8875811688313" y="331.0" />
-              <point x="1905.6603084415588" y="331.0" />
-              <point x="76.0" y="69.5" />
-            </edge>
-            <edge source="com.cfemex.lv.is.GEMMAA.GrupoEvaluacion" target="com.cfemex.lv.is.GEMMAA.Ponderados">
-              <point x="-112.33333333333326" y="-124.5" />
-              <point x="1041.1666666666667" y="770.0" />
-              <point x="555.0" y="770.0" />
-              <point x="51.25" y="80.5" />
-            </edge>
-            <edge source="com.cfemex.lv.is.GEMMAA.DAO" target="com.cfemex.lv.is.GEMMAA.ComportamientoReactivoEscala">
-              <point x="37.81818181818187" y="-14.5" />
-              <point x="854.3265692640693" y="1104.0" />
-              <point x="1766.1708603896104" y="1104.0" />
-              <point x="1766.1708603896104" y="301.0" />
-              <point x="1580.9330357142858" y="301.0" />
-              <point x="107.33333333333326" y="135.5" />
-            </edge>
-            <edge source="com.cfemex.lv.is.GEMMAA.GrupoEvaluacion" target="com.cfemex.lv.is.GEMMAA.Promedios">
-              <point x="0.0" y="-124.5" />
-              <point x="1153.5" y="520.0" />
-              <point x="1088.4208603896104" y="520.0" />
-              <point x="-86.75" y="47.5" />
-            </edge>
-            <edge source="com.cfemex.lv.is.GEMMAA.DAO" target="com.cfemex.lv.is.GEMMAA.Encuesta">
-              <point x="28.363636363636374" y="-14.5" />
-              <point x="844.8720238095239" y="1094.0" />
-              <point x="1720.1852002164503" y="1094.0" />
-              <point x="1720.1852002164503" y="520.0" />
-              <point x="1691.1708603896104" y="520.0" />
-              <point x="129.0" y="69.5" />
-            </edge>
-            <edge source="com.cfemex.lv.is.GEMMAA.DAO" target="com.cfemex.lv.is.GEMMAA.Ponderados">
-              <point x="-18.909090909090878" y="-14.5" />
-              <point x="797.5992965367966" y="1084.0" />
-              <point x="452.5" y="1084.0" />
-              <point x="-51.25" y="80.5" />
-            </edge>
-            <edge source="com.cfemex.lv.is.GEMMAA.DAO" target="com.cfemex.lv.is.GEMMAA.GrupoEvaluacion">
-              <point x="9.454545454545496" y="-14.5" />
-              <point x="825.962932900433" y="1074.0" />
-              <point x="1153.5" y="1074.0" />
-              <point x="0.0" y="124.5" />
-            </edge>
-            <edge source="com.cfemex.lv.is.GEMMAA.DAO" target="com.cfemex.lv.is.GEMMAA.TipoEncuesta">
-              <point x="-9.454545454545496" y="-14.5" />
-              <point x="807.053841991342" y="1074.0" />
-              <point x="547.0" y="1074.0" />
-              <point x="0.0" y="36.5" />
-            </edge>
-            <edge source="com.cfemex.lv.is.GEMMAA.GrupoEvaluacion" target="com.cfemex.lv.is.GEMMAA.Evaluador">
-              <point x="112.33333333333326" y="-124.5" />
-              <point x="1265.8333333333333" y="770.0" />
-              <point x="1493.4208603896104" y="770.0" />
-              <point x="-64.0" y="102.5" />
-            </edge>
-            <edge source="com.cfemex.lv.is.GEMMAA.Evaluador" target="com.cfemex.lv.is.GEMMAA.Encuesta">
-              <point x="0.0" y="-102.5" />
-              <point x="1557.4208603896104" y="520.0" />
-              <point x="1562.1708603896104" y="520.0" />
-              <point x="0.0" y="69.5" />
-            </edge>
-            <edge source="com.cfemex.lv.is.GEMMAA.Encuesta" target="com.cfemex.lv.is.GEMMAA.Atributo">
-              <point x="129.0" y="-69.5" />
-              <point x="1691.1708603896104" y="321.0" />
-              <point x="1829.6603084415588" y="321.0" />
-              <point x="0.0" y="69.5" />
-            </edge>
-            <edge source="com.cfemex.lv.is.GEMMAA.Promedios" target="com.cfemex.lv.is.GEMMAA.ComportamientoReactivoEscala">
-              <point x="0.0" y="-47.5" />
-              <point x="1175.1708603896104" y="301.0" />
-              <point x="1366.2663690476193" y="301.0" />
-              <point x="-107.33333333333326" y="135.5" />
-            </edge>
-            <edge source="com.cfemex.lv.is.GEMMAA.DAO" target="com.cfemex.lv.is.GEMMAA.Resultado_Esperado">
-              <point x="-37.81818181818187" y="-14.5" />
-              <point x="778.6902056277056" y="1104.0" />
-              <point x="154.5" y="1104.0" />
-              <point x="154.5" y="331.0" />
-              <point x="556.9461580086578" y="331.0" />
-              <point x="-62.66666666666663" y="47.5" />
-            </edge>
-            <edge source="com.cfemex.lv.is.GEMMAA.BO" target="com.cfemex.lv.is.GEMMAA.Promedios">
-              <point x="-23.75" y="-14.5" />
-              <point x="1206.1128246753244" y="510.0" />
-              <point x="1261.9208603896104" y="510.0" />
-              <point x="86.75" y="47.5" />
-            </edge>
-            <edge source="com.cfemex.lv.is.GEMMAA.BO" target="com.cfemex.lv.is.GEMMAA.Encuesta">
-              <point x="23.75" y="-14.5" />
-              <point x="1253.6128246753244" y="520.0" />
-              <point x="1433.1708603896104" y="520.0" />
-              <point x="-129.0" y="69.5" />
-            </edge>
-            <edge source="com.cfemex.lv.is.GEMMAA.Encuesta" target="com.cfemex.lv.is.GEMMAA.Resultado_Esperado">
-              <point x="-129.0" y="-69.5" />
-              <point x="1433.1708603896104" y="291.0" />
-              <point x="682.279491341991" y="291.0" />
-              <point x="62.66666666666663" y="47.5" />
-            </edge>
-            <edge source="com.cfemex.lv.is.GEMMAA.Promedios" target="com.cfemex.lv.is.GEMMAA.Atributo">
-              <point x="115.66666666666674" y="-47.5" />
-              <point x="1290.8375270562774" y="311.0" />
-              <point x="1753.6603084415588" y="311.0" />
-              <point x="-76.0" y="69.5" />
-            </edge>
-            <edge source="com.cfemex.lv.is.GEMMAA.DAO" target="com.cfemex.lv.is.GEMMAA.Evaluador">
-              <point x="18.909090909090878" y="-14.5" />
-              <point x="835.4174783549784" y="1084.0" />
-              <point x="1621.4208603896104" y="1084.0" />
-              <point x="64.0" y="102.5" />
-            </edge>
-            <edge source="com.cfemex.lv.is.GEMMAA.DAO" target="com.cfemex.lv.is.GEMMAA.Evaluado">
-              <point x="-47.27272727272725" y="-14.5" />
-              <point x="769.2356601731602" y="1114.0" />
-              <point x="72.0" y="1114.0" />
-              <point x="0.0" y="47.5" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="0.5125989920806335" x="386.74719101123594" y="458.2022471910112" />
-          <SelectedNodes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.5125989920806335" x="387.0" y="458.0" />
+          <SelectedNodes>
+            <node>com.cfemex.lv.is.GEMMAA.DAO</node>
+          </SelectedNodes>
           <Categories>
             <Category>Properties</Category>
           </Categories>
@@ -1566,10 +1225,36 @@
           <notes />
           <edges />
           <settings layout="Hierarchic Group" zoom="1.0" x="336.0" y="327.0" />
-          <SelectedNodes />
+          <SelectedNodes>
+            <node>com.cfemex.lv.is.GEMMAA.BO.ReportesBO</node>
+          </SelectedNodes>
           <Categories />
           <SCOPE>All</SCOPE>
           <VISIBILITY>public</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cfemex/lv/is/GEMMAA/BO/BitacoraBO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="17" column="33" lean-forward="false" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cfemex/lv/is/GEMMAA/DAO/BitacoraDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="24" column="19" lean-forward="false" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cfemex/lv/is/GEMMAA/RegistroBitacora.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-358">
+          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

@@ -1,6 +1,5 @@
 package com.cfemex.lv.is.GEMMAA;
 
-import java.sql.Timestamp;
 
 /**
  * Created by JCDI on 11/11/2016.
