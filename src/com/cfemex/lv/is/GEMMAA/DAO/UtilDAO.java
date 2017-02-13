@@ -35,7 +35,7 @@ public class UtilDAO {
         ResultSet rs = null;
 
         StringBuilder qry = new StringBuilder();
-        qry.append(" SELECT stp_emplrpenip(nip), stp_emplfoto(rpe) ");
+        qry.append(" SELECT stp_emplrpenip(nip)");
         qry.append(" FROM empl ");
         qry.append(" WHERE nip = '" + nip + "'; ");
 
@@ -47,7 +47,6 @@ public class UtilDAO {
             while (rs.next()) {
 
                 ev.setRpe(rs.getString(1));
-                ev.setFoto(rs.getBytes(2));
             }
 
 

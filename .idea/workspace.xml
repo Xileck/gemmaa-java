@@ -21,136 +21,91 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Encuesta.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/cfemex/lv/is/GEMMAA/Encuesta.java">
+      <file leaf-file-name="ReportesDAO.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/cfemex/lv/is/GEMMAA/DAO/ReportesDAO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="883">
+              <caret line="211" column="59" lean-forward="false" selection-start-line="211" selection-start-column="53" selection-end-line="211" selection-end-column="59" />
+              <folding>
+                <element signature="e#10163#10171#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JAVA/com.cfemex.lv.is.GEMMAA.DAO" pinned="false" current-in-tab="false">
-        <entry file="uml://JAVA/com.cfemex.lv.is.GEMMAA.DAO">
-          <provider selected="true" editor-type-id="UmlEditorProvider">
-            <state>
-              <ID>JAVA</ID>
-              <OriginalElement>com.cfemex.lv.is.GEMMAA.DAO</OriginalElement>
-              <nodes>
-                <node x="0.0" y="872.0">com.cfemex.lv.is.GEMMAA.Evaluado</node>
-                <node x="1001.6708603896105" y="373.0">com.cfemex.lv.is.GEMMAA.Promedios</node>
-                <node x="1715.6603084415588" y="66.0">com.cfemex.lv.is.GEMMAA.Atributo</node>
-                <node x="525.6128246753244" y="88.0">com.cfemex.lv.is.GEMMAA.Resultado_Esperado</node>
-                <node x="165.0" y="817.0">com.cfemex.lv.is.GEMMAA.EvaluacionPendiente</node>
-                <node x="463.0" y="883.0">com.cfemex.lv.is.GEMMAA.TipoEncuesta</node>
-                <node x="651.0" y="795.0">com.cfemex.lv.is.GEMMAA.RegistroBitacora</node>
-                <node x="764.5083874458875" y="1134.0">com.cfemex.lv.is.GEMMAA.DAO</node>
-                <node x="0.0" y="1208.0">com.cfemex.lv.is.GEMMAA.Evaluacion</node>
-                <node x="985.0" y="795.0">com.cfemex.lv.is.GEMMAA.GrupoEvaluacion</node>
-                <node x="1312.5997023809527" y="0.0">com.cfemex.lv.is.GEMMAA.ComportamientoReactivoEscala</node>
-                <node x="401.25" y="562.0">com.cfemex.lv.is.GEMMAA.Ponderados</node>
-                <node x="1368.6708603896104" y="351.0">com.cfemex.lv.is.GEMMAA.Encuesta</node>
-                <node x="1429.4208603896104" y="540.0">com.cfemex.lv.is.GEMMAA.Evaluador</node>
-                <node x="1182.3628246753244" y="628.0">com.cfemex.lv.is.GEMMAA.BO</node>
-              </nodes>
-              <notes />
-              <edges />
-              <settings layout="Hierarchic Group" zoom="0.5125989920806335" x="387.0" y="458.0" />
-              <SelectedNodes>
-                <node>com.cfemex.lv.is.GEMMAA.DAO</node>
-              </SelectedNodes>
-              <Categories>
-                <Category>Properties</Category>
-              </Categories>
-              <SCOPE>All</SCOPE>
-              <VISIBILITY>public</VISIBILITY>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GrupoEvaluacion.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/cfemex/lv/is/GEMMAA/GrupoEvaluacion.java">
+      <file leaf-file-name="UtilDAO.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/cfemex/lv/is/GEMMAA/DAO/UtilDAO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="26" column="31" lean-forward="false" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
-              <folding />
+            <state relative-caret-position="306">
+              <caret line="31" column="35" lean-forward="false" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JAVA/com.cfemex.lv.is.GEMMAA.GrupoEvaluacion" pinned="false" current-in-tab="false">
-        <entry file="uml://JAVA/com.cfemex.lv.is.GEMMAA.GrupoEvaluacion">
-          <provider selected="true" editor-type-id="UmlEditorProvider">
-            <state>
-              <ID>JAVA</ID>
-              <OriginalElement>com.cfemex.lv.is.GEMMAA.GrupoEvaluacion</OriginalElement>
-              <nodes>
-                <node x="0.0" y="148.0">com.cfemex.lv.is.GEMMAA.BO.ReportesBO</node>
-                <node x="0.0" y="0.0">com.cfemex.lv.is.GEMMAA.BO.EvaluacionBO</node>
-                <node x="0.0" y="222.0">com.cfemex.lv.is.GEMMAA.BO.UtilBO</node>
-                <node x="0.0" y="74.0">com.cfemex.lv.is.GEMMAA.BO.EncuestaBO</node>
-                <node x="139.0" y="148.0">com.cfemex.lv.is.GEMMAA.BO.BitacoraBO</node>
-              </nodes>
-              <notes />
-              <edges />
-              <settings layout="Hierarchic Group" zoom="1.0" x="336.0" y="327.0" />
-              <SelectedNodes>
-                <node>com.cfemex.lv.is.GEMMAA.BO.ReportesBO</node>
-              </SelectedNodes>
-              <Categories />
-              <SCOPE>All</SCOPE>
-              <VISIBILITY>public</VISIBILITY>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BitacoraBO.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/cfemex/lv/is/GEMMAA/BO/BitacoraBO.java">
+      <file leaf-file-name="Evaluado.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/cfemex/lv/is/GEMMAA/Evaluado.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="17" column="33" lean-forward="false" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
-              <folding />
+            <state relative-caret-position="85">
+              <caret line="5" column="21" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="21" />
+              <folding>
+                <element signature="e#170#171#0" expanded="false" />
+                <element signature="e#196#197#0" expanded="false" />
+                <element signature="e#231#232#0" expanded="false" />
+                <element signature="e#261#262#0" expanded="false" />
+                <element signature="e#291#292#0" expanded="false" />
+                <element signature="e#317#318#0" expanded="false" />
+                <element signature="e#355#356#0" expanded="false" />
+                <element signature="e#385#386#0" expanded="false" />
+                <element signature="e#416#417#0" expanded="false" />
+                <element signature="e#443#444#0" expanded="false" />
+                <element signature="e#483#484#0" expanded="false" />
+                <element signature="e#515#516#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BitacoraDAO.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/cfemex/lv/is/GEMMAA/DAO/BitacoraDAO.java">
+      <file leaf-file-name="UtilBO.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/cfemex/lv/is/GEMMAA/BO/UtilBO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="237">
-              <caret line="24" column="19" lean-forward="false" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
-              <folding />
+            <state relative-caret-position="289">
+              <caret line="23" column="18" lean-forward="false" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RegistroBitacora.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/cfemex/lv/is/GEMMAA/RegistroBitacora.java">
+      <file leaf-file-name="ReportesBO.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/cfemex/lv/is/GEMMAA/BO/ReportesBO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-358">
-              <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="319">
+              <caret line="74" column="0" lean-forward="true" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
+              <folding>
+                <element signature="e#3788#3805#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GEMMAA.iml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GEMMAA.iml">
+      <file leaf-file-name="EncuestaBO.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/cfemex/lv/is/GEMMAA/BO/EncuestaBO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GEMMAA.eml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GEMMAA.eml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="306">
+              <caret line="22" column="62" lean-forward="false" selection-start-line="22" selection-start-column="53" selection-end-line="22" selection-end-column="62" />
+              <folding>
+                <element signature="imports" expanded="false" />
+                <element signature="e#481#482#0" expanded="false" />
+                <element signature="e#553#554#0" expanded="false" />
+                <element signature="e#605#606#0" expanded="false" />
+                <element signature="e#674#675#0" expanded="false" />
+                <element signature="e#1762#1763#0" expanded="false" />
+                <element signature="e#1833#1834#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -158,9 +113,17 @@
       <file leaf-file-name="Evaluador.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/cfemex/lv/is/GEMMAA/Evaluador.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="16" lean-forward="false" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
-              <folding />
+            <state relative-caret-position="323">
+              <caret line="20" column="28" lean-forward="false" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
+              <folding>
+                <element signature="e#414#415#0" expanded="true" />
+                <element signature="e#452#453#0" expanded="true" />
+                <element signature="e#482#483#0" expanded="true" />
+                <element signature="e#524#525#0" expanded="true" />
+                <element signature="e#562#563#0" expanded="true" />
+                <element signature="e#624#625#0" expanded="true" />
+                <element signature="e#678#679#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -178,6 +141,9 @@
     <findStrings>
       <find>getvalor</find>
       <find>insert</find>
+      <find>ponderado</find>
+      <find>std</find>
+      <find>simple</find>
     </findStrings>
   </component>
   <component name="GradleLocalSettings">
@@ -194,15 +160,17 @@
         <option value="$PROJECT_DIR$/src/com/cfemex/lv/is/GEMMAA/BO/EvaluacionBO.java" />
         <option value="$PROJECT_DIR$/src/com/cfemex/lv/is/GEMMAA/DAO/BitacoraDAO.java" />
         <option value="$PROJECT_DIR$/src/com/cfemex/lv/is/GEMMAA/BO/BitacoraBO.java" />
-        <option value="$PROJECT_DIR$/src/com/cfemex/lv/is/GEMMAA/BO/ReportesBO.java" />
-        <option value="$PROJECT_DIR$/src/com/cfemex/lv/is/GEMMAA/DAO/ReportesDAO.java" />
-        <option value="$PROJECT_DIR$/src/com/cfemex/lv/is/GEMMAA/DAO/UtilDAO.java" />
         <option value="$PROJECT_DIR$/src/com/cfemex/lv/is/GEMMAA/BO/UtilBO.java" />
         <option value="$PROJECT_DIR$/src/com/cfemex/lv/is/GEMMAA/BO/EncuestaBO.java" />
         <option value="$PROJECT_DIR$/src/com/cfemex/lv/is/GEMMAA/Ponderados.java" />
-        <option value="$PROJECT_DIR$/src/com/cfemex/lv/is/GEMMAA/DAO/EncuestaDAO.java" />
         <option value="$PROJECT_DIR$/src/com/cfemex/lv/is/GEMMAA/Encuesta.java" />
         <option value="$PROJECT_DIR$/src/com/cfemex/lv/is/GEMMAA/RegistroBitacora.java" />
+        <option value="$PROJECT_DIR$/src/com/cfemex/lv/is/GEMMAA/DAO/EncuestaDAO.java" />
+        <option value="$PROJECT_DIR$/src/com/cfemex/lv/is/GEMMAA/Evaluado.java" />
+        <option value="$PROJECT_DIR$/src/com/cfemex/lv/is/GEMMAA/DAO/UtilDAO.java" />
+        <option value="$PROJECT_DIR$/src/com/cfemex/lv/is/GEMMAA/Evaluador.java" />
+        <option value="$PROJECT_DIR$/src/com/cfemex/lv/is/GEMMAA/DAO/ReportesDAO.java" />
+        <option value="$PROJECT_DIR$/src/com/cfemex/lv/is/GEMMAA/BO/ReportesBO.java" />
       </list>
     </option>
   </component>
@@ -233,8 +201,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -287,31 +256,8 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GEMMAA_JAVA" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GEMMAA_JAVA" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GEMMAA" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BO" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -733,46 +679,49 @@
       <workItem from="1485960196642" duration="7332000" />
       <workItem from="1486489004029" duration="5950000" />
       <workItem from="1486671976178" duration="60000" />
+      <workItem from="1487005997334" duration="17000" />
+      <workItem from="1487006042445" duration="3902000" />
+      <workItem from="1487019613566" duration="2078000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34884000" />
+    <option name="totallyTimeSpent" value="40881000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
+    <frame x="-8" y="-8" width="1456" height="876" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32985657" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32985657" sideWeight="0.51111114" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32985657" sideWeight="0.4888889" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32985657" sideWeight="0.4888889" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.260745" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32985657" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32985657" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32985657" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32985657" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32985657" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -812,7 +761,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -834,7 +782,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="21" column="45" lean-forward="false" selection-start-line="21" selection-start-column="45" selection-end-line="21" selection-end-column="45" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -843,8 +793,7 @@
         <state relative-caret-position="238">
           <caret line="20" column="71" lean-forward="false" selection-start-line="20" selection-start-column="71" selection-end-line="20" selection-end-column="71" />
           <folding>
-            <element signature="e#537#538#0" expanded="false" />
-            <element signature="e#602#603#0" expanded="false" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -862,7 +811,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -884,7 +832,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="21" column="45" lean-forward="false" selection-start-line="21" selection-start-column="45" selection-end-line="21" selection-end-column="45" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -893,8 +843,7 @@
         <state relative-caret-position="238">
           <caret line="20" column="71" lean-forward="false" selection-start-line="20" selection-start-column="71" selection-end-line="20" selection-end-column="71" />
           <folding>
-            <element signature="e#537#538#0" expanded="false" />
-            <element signature="e#602#603#0" expanded="false" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -913,7 +862,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -970,54 +918,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/cfemex/lv/is/GEMMAA/BO/ReportesBO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="19" column="45" lean-forward="false" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/cfemex/lv/is/GEMMAA/DAO/ReportesDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3706">
-          <caret line="224" column="54" lean-forward="false" selection-start-line="224" selection-start-column="54" selection-end-line="224" selection-end-column="54" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/cfemex/lv/is/GEMMAA/DAO/UtilDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="29" column="5" lean-forward="false" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/cfemex/lv/is/GEMMAA/BO/UtilBO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="24" column="5" lean-forward="false" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
-          <folding>
-            <element signature="e#537#538#0" expanded="false" />
-            <element signature="e#602#603#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/cfemex/lv/is/GEMMAA/BO/EncuestaBO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="51" column="0" lean-forward="false" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
-          <folding>
-            <element signature="e#481#482#0" expanded="false" />
-            <element signature="e#553#554#0" expanded="false" />
-            <element signature="e#605#606#0" expanded="false" />
-            <element signature="e#674#675#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/cfemex/lv/is/GEMMAA/Ponderados.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -1025,44 +925,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/cfemex/lv/is/GEMMAA/DAO/EncuestaDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="281" column="0" lean-forward="true" selection-start-line="281" selection-start-column="0" selection-end-line="281" selection-end-column="0" />
-          <folding>
-            <element signature="docComment;class#EncuestaDAO#0" expanded="false" />
-            <element signature="method#getInstance#0;class#EncuestaDAO#0" expanded="false" />
-            <element signature="method#getListaPonderados#0;class#EncuestaDAO#0" expanded="false" />
-            <element signature="method#insertarPonderados#0;class#EncuestaDAO#0" expanded="false" />
-            <element signature="method#getNombreEncuesta#0;class#EncuestaDAO#0" expanded="false" />
-            <element signature="method#getResultadosEsperadosEncuesta#0;class#EncuestaDAO#0" expanded="false" />
-            <element signature="method#getAtributosEncuesta#0;class#EncuestaDAO#0" expanded="false" />
-            <element signature="method#getComportamientosReactivosEscala#0;class#EncuestaDAO#0" expanded="false" />
-            <element signature="method#getComportamientosReactivosEscalaRespuesta#0;class#EncuestaDAO#0" expanded="false" />
-            <element signature="method#getCatalogoEncuestas#0;class#EncuestaDAO#0" expanded="false" />
-            <element signature="e#11203#11310#0" expanded="false" />
-            <element signature="method#crearNuevaEncuesta#0;class#EncuestaDAO#0" expanded="false" />
-            <element signature="method#guardarEncuestaContestada#0;class#EncuestaDAO#0" expanded="false" />
-            <element signature="method#actualizarRegistroCRE#0;class#EncuestaDAO#0" expanded="false" />
-            <element signature="method#actualizarRegistroAtributo#0;class#EncuestaDAO#0" expanded="false" />
-            <element signature="method#agregarRegistroCRE#0;class#EncuestaDAO#0" expanded="false" />
-            <element signature="method#eliminarRegistroCRE#0;class#EncuestaDAO#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/cfemex/lv/is/GEMMAA/Atributo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/cfemex/lv/is/GEMMAA/Resultado_Esperado.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1070,23 +936,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/cfemex/lv/is/GEMMAA/Evaluado.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/cfemex/lv/is/GEMMAA/Evaluador.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="16" lean-forward="false" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1198,7 +1047,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1206,7 +1054,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1238,13 +1085,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="17" column="33" lean-forward="false" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/cfemex/lv/is/GEMMAA/DAO/BitacoraDAO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
+        <state relative-caret-position="323">
           <caret line="24" column="19" lean-forward="false" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
           <folding />
         </state>
@@ -1252,9 +1098,136 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/cfemex/lv/is/GEMMAA/RegistroBitacora.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-358">
-          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        <state relative-caret-position="204">
+          <caret line="12" column="14" lean-forward="false" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cfemex/lv/is/GEMMAA/DAO/EncuestaDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="132" column="18" lean-forward="true" selection-start-line="132" selection-start-column="18" selection-end-line="132" selection-end-column="18" />
+          <folding>
+            <element signature="docComment;class#EncuestaDAO#0" expanded="false" />
+            <element signature="method#getInstance#0;class#EncuestaDAO#0" expanded="false" />
+            <element signature="method#getListaPonderados#0;class#EncuestaDAO#0" expanded="false" />
+            <element signature="method#insertarPonderados#0;class#EncuestaDAO#0" expanded="false" />
+            <element signature="method#getNombreEncuesta#0;class#EncuestaDAO#0" expanded="false" />
+            <element signature="method#getResultadosEsperadosEncuesta#0;class#EncuestaDAO#0" expanded="false" />
+            <element signature="method#getAtributosEncuesta#0;class#EncuestaDAO#0" expanded="false" />
+            <element signature="method#getComportamientosReactivosEscala#0;class#EncuestaDAO#0" expanded="false" />
+            <element signature="method#getComportamientosReactivosEscalaRespuesta#0;class#EncuestaDAO#0" expanded="false" />
+            <element signature="method#getCatalogoEncuestas#0;class#EncuestaDAO#0" expanded="false" />
+            <element signature="e#11203#11310#0" expanded="false" />
+            <element signature="method#crearNuevaEncuesta#0;class#EncuestaDAO#0" expanded="false" />
+            <element signature="method#guardarEncuestaContestada#0;class#EncuestaDAO#0" expanded="false" />
+            <element signature="method#actualizarRegistroCRE#0;class#EncuestaDAO#0" expanded="false" />
+            <element signature="method#actualizarRegistroAtributo#0;class#EncuestaDAO#0" expanded="false" />
+            <element signature="method#agregarRegistroCRE#0;class#EncuestaDAO#0" expanded="false" />
+            <element signature="method#eliminarRegistroCRE#0;class#EncuestaDAO#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cfemex/lv/is/GEMMAA/Atributo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cfemex/lv/is/GEMMAA/BO/EncuestaBO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="22" column="62" lean-forward="false" selection-start-line="22" selection-start-column="53" selection-end-line="22" selection-end-column="62" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#481#482#0" expanded="false" />
+            <element signature="e#553#554#0" expanded="false" />
+            <element signature="e#605#606#0" expanded="false" />
+            <element signature="e#674#675#0" expanded="false" />
+            <element signature="e#1762#1763#0" expanded="false" />
+            <element signature="e#1833#1834#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cfemex/lv/is/GEMMAA/Evaluado.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="21" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="21" />
+          <folding>
+            <element signature="e#170#171#0" expanded="false" />
+            <element signature="e#196#197#0" expanded="false" />
+            <element signature="e#231#232#0" expanded="false" />
+            <element signature="e#261#262#0" expanded="false" />
+            <element signature="e#291#292#0" expanded="false" />
+            <element signature="e#317#318#0" expanded="false" />
+            <element signature="e#355#356#0" expanded="false" />
+            <element signature="e#385#386#0" expanded="false" />
+            <element signature="e#416#417#0" expanded="false" />
+            <element signature="e#443#444#0" expanded="false" />
+            <element signature="e#483#484#0" expanded="false" />
+            <element signature="e#515#516#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cfemex/lv/is/GEMMAA/DAO/UtilDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="31" column="35" lean-forward="false" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cfemex/lv/is/GEMMAA/BO/UtilBO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="23" column="18" lean-forward="false" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cfemex/lv/is/GEMMAA/Evaluador.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="20" column="28" lean-forward="false" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
+          <folding>
+            <element signature="e#414#415#0" expanded="true" />
+            <element signature="e#452#453#0" expanded="true" />
+            <element signature="e#482#483#0" expanded="true" />
+            <element signature="e#524#525#0" expanded="true" />
+            <element signature="e#562#563#0" expanded="true" />
+            <element signature="e#624#625#0" expanded="true" />
+            <element signature="e#678#679#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cfemex/lv/is/GEMMAA/DAO/ReportesDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="883">
+          <caret line="211" column="59" lean-forward="false" selection-start-line="211" selection-start-column="53" selection-end-line="211" selection-end-column="59" />
+          <folding>
+            <element signature="e#10163#10171#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cfemex/lv/is/GEMMAA/BO/ReportesBO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="74" column="0" lean-forward="true" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
+          <folding>
+            <element signature="e#3788#3805#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

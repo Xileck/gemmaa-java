@@ -15,6 +15,25 @@ public class Evaluador {
     String finalizo;
     Empleado empleado;
     Encuesta encuesta;
+    String nombre_completo;
+    String rpe;
+
+    public String getRpe() {
+        return rpe;
+    }
+
+    public void setRpe(String rpe) {
+        this.rpe = rpe;
+    }
+
+    public String getNombre_completo() {
+        return nombre_completo;
+    }
+
+    public void setNombre_completo(String nombre_completo) {
+        this.nombre_completo = nombre_completo;
+    }
+
 
     public Encuesta getEncuesta() {
         return encuesta;

@@ -14,6 +14,7 @@ import java.util.*;
 public class ReportesDAO {
 
     public static ReportesDAO instance = null;
+
     public static ReportesDAO getInstance() {
         if (instance == null) {
             instance = new ReportesDAO();
@@ -66,6 +67,7 @@ public class ReportesDAO {
             rs = q1.getSelect();
 
             while (rs.next()) {
+                ponderado.setIdp(rs.getInt(1));
                 ponderado.setJefe(rs.getInt(2));
                 ponderado.setColaborador(rs.getInt(3));
                 ponderado.setPar(rs.getInt(4));
@@ -91,6 +93,33 @@ public class ReportesDAO {
         qry.append(" SELECT gemmaa_evaluaciones.id_evaluacion ");
         qry.append(" FROM gemmaa_evaluaciones ");
         qry.append(" WHERE gemmaa_evaluaciones.nip_de_evaluado = " + nip + "; ");
+
+        try {
+            q1.setQry(qry.toString());
+            q1.setPreparaSelect();
+            rs = q1.getSelect();
+            while (rs.next()) {
+                lista.add(rs.getInt(1));
+            }
+
+        } catch (Exception ex) {
+
+        } finally {
+            q1.desconectarBD();
+        }
+        return lista;
+    }
+
+    public List<Number> getEvaluacionesQueParticipoUsuario(int nip) {
+        Informix q1 = new Informix("GEMMAA360", "Informix/GEMMAA360");
+        List<Number> lista = new ArrayList<Number>();
+        ResultSet rs = null;
+        StringBuilder qry = new StringBuilder();
+        qry.append(" SELECT gemmaa_evaluaciones.id_evaluacion ");
+        qry.append(" FROM gemmaa_evaluaciones, gemmaa_evaluadores ");
+        qry.append(" WHERE gemmaa_evaluaciones.id_evaluacion = gemmaa_evaluadores.id_evaluacion ");
+        qry.append(" and gemmaa_evaluadores.tipo_de_evaluador = 'JEFE' ");
+        qry.append(" AND gemmaa_evaluadores.nip_evaluador = " + nip + " ");
 
         try {
             q1.setQry(qry.toString());
@@ -224,6 +253,43 @@ public class ReportesDAO {
         encuesta.setAtributos(EncuestaDAO.getInstance().getAtributosEncuesta(id_tipo_encuesta));
         encuesta.setListaCRE(EncuestaDAO.getInstance().getComportamientosReactivosEscalaRespuesta(id_tipo_encuesta, id_evaluador));
         return encuesta;
+    }
+
+
+    public List<Number> buscarIdEvaluacionesEmpleado(String nombre_rpe) {
+        Informix q1 = new Informix("GEMMAA360", "Informix/GEMMAA360");
+        ResultSet rs = null;
+        List<Number> idEvaluaciones = new ArrayList<Number>();
+        String[] words = nombre_rpe.toUpperCase().split(" ");
+        StringBuilder qry = new StringBuilder();
+        qry.append(" SELECT gemmaa_evaluaciones.id_evaluacion ");
+        qry.append(" FROM pers, empl, gemmaa_evaluaciones, gemmaa_evaluadores ");
+        qry.append(" WHERE pers.rpe = empl.rpe ");
+        qry.append(" AND gemmaa_evaluadores.nip_evaluador = empl.nip ");
+        qry.append(" AND gemmaa_evaluaciones.id_evaluacion = gemmaa_evaluadores.id_evaluacion ");
+        for (String word : words) {
+            qry.append(" AND (pers.appat matches '*" + word + "*' or pers.apmat matches '*" + word + "*'  OR pers.nombre matches '*" + word + "*' OR pers.rpe matches '*" + word + "*') ");
+        }
+
+
+
+        try {
+            q1.setQry(qry.toString());
+            q1.setPreparaSelect();
+            rs = q1.getSelect();
+
+            while (rs.next()) {
+                Number consulta = rs.getInt(1);
+                idEvaluaciones.add(consulta);
+            }
+
+
+        } catch (Exception ex) {
+
+        } finally {
+            q1.desconectarBD();
+        }
+        return idEvaluaciones;
     }
 }
 

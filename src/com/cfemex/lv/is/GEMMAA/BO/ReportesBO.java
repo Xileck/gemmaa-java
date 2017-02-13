@@ -3,11 +3,13 @@ package com.cfemex.lv.is.GEMMAA.BO;
 import com.cfemex.lv.EmpleadoDAO;
 import com.cfemex.lv.is.GEMMAA.DAO.BitacoraDAO;
 import com.cfemex.lv.is.GEMMAA.DAO.ReportesDAO;
+import com.cfemex.lv.is.GEMMAA.DAO.UtilDAO;
 import com.cfemex.lv.is.GEMMAA.Encuesta;
 import com.cfemex.lv.is.GEMMAA.Evaluador;
 import com.cfemex.lv.is.GEMMAA.GrupoEvaluacion;
 import com.cfemex.lv.is.GEMMAA.Promedios;
 import com.cfemex.lv.is.apps.intranet.Empl;
+import com.cfemex.lv.is.apps.intranet.UsuarioDAO;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -18,6 +20,7 @@ import java.util.List;
 public class ReportesBO {
 
     public static ReportesBO instance = null;
+
     public static ReportesBO getInstance() {
         if (instance == null) {
             instance = new ReportesBO();
@@ -34,6 +37,18 @@ public class ReportesBO {
         List<GrupoEvaluacion> evaluaciones = new ArrayList<GrupoEvaluacion>();
         for (Number id : idEvaluaciones) {
             GrupoEvaluacion evaluacion = ReportesBO.getInstance().getGrupoEvaluacionSimple(id.intValue());
+            evaluaciones.add(evaluacion);
+        }
+        return evaluaciones;
+    }
+
+    // Evaluaciones que se participo como jefe
+    public List<GrupoEvaluacion> getEvaluacionesParticipadas(int nip) {
+        List<Number> idEvaluaciones = ReportesDAO.getInstance().getEvaluacionesQueParticipoUsuario(nip);
+        List<GrupoEvaluacion> evaluaciones = new ArrayList<GrupoEvaluacion>();
+        for (Number id : idEvaluaciones) {
+            GrupoEvaluacion evaluacion = ReportesBO.getInstance().getGrupoEvaluacionSimple(id.intValue());
+            evaluacion.setEvaluado(EmpleadoDAO.getInstance().seleccionarEmpleado(UtilDAO.getInstance().getInfoEvaluado(nip).getRpe()));
             evaluaciones.add(evaluacion);
         }
         return evaluaciones;
@@ -62,5 +77,14 @@ public class ReportesBO {
         grupoEvaluacion.setPromedios(new Promedios(enc.getAtributos(), enc.getResultados_esperados(), enc.getListaCRE()));
 
         return grupoEvaluacion;
+    }
+
+    public List<GrupoEvaluacion> getGruposEvaluacionEmpleado(String nombre_rpe) {
+        List<Number> idEvaluaciones = ReportesDAO.getInstance().buscarIdEvaluacionesEmpleado(nombre_rpe);
+        List<GrupoEvaluacion> grupos = new ArrayList<GrupoEvaluacion>();
+        for (Number n : idEvaluaciones) {
+            grupos.add(getGrupoEvaluacion(n.intValue()));
+        }
+        return grupos;
     }
 }
