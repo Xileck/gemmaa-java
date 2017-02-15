@@ -44,8 +44,8 @@ public class EvaluacionDAO {
     public void asignarEvaluador(Evaluador _evaluador) {
         Informix q1 = new Informix("GEMMAA360", "Informix/GEMMAA360");
         StringBuilder qry = new StringBuilder();
-        qry.append(" INSERT INTO gemmaa_evaluadores (id_evaluador,id_evaluacion,nip_evaluador,tipo_de_evaluador,fecha, finalizo) ");
-        qry.append(" VALUES ((SELECT MAX(id_evaluador) + 1 FROM gemmaa_evaluadores), (SELECT MAX(id_evaluacion) FROM gemmaa_evaluaciones), " + _evaluador.getNip_evaluador() + ", '" + _evaluador.getTipo_de_evaluador() + "',current, '" + _evaluador.getFinalizo() + "'); ");
+        qry.append(" INSERT INTO gemmaa_evaluadores (id_evaluador,id_evaluacion,nip_evaluador,tipo_de_evaluador, finalizo) ");
+        qry.append(" VALUES ((SELECT MAX(id_evaluador) + 1 FROM gemmaa_evaluadores), (SELECT MAX(id_evaluacion) FROM gemmaa_evaluaciones), " + _evaluador.getNip_evaluador() + ", '" + _evaluador.getTipo_de_evaluador() + "', '" + _evaluador.getFinalizo() + "'); ");
 
         try {
             q1.setQrypreparaUpdate(qry.toString());

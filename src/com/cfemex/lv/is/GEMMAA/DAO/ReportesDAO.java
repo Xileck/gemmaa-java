@@ -214,7 +214,7 @@ public class ReportesDAO {
         ResultSet rs = null;
         List<Evaluador> evaluadores = new ArrayList<Evaluador>();
         StringBuilder qry = new StringBuilder();
-        qry.append(" SELECT gemmaa_evaluadores.nip_evaluador, gemmaa_evaluadores.tipo_de_evaluador, gemmaa_evaluadores.id_evaluador, gemmaa_evaluadores.finalizo, gemmaa_evaluadores.fecha  ");
+        qry.append(" SELECT gemmaa_evaluadores.nip_evaluador, gemmaa_evaluadores.tipo_de_evaluador, gemmaa_evaluadores.id_evaluador, gemmaa_evaluadores.finalizo, gemmaa_evaluadores.fecha ");
         qry.append(" FROM gemmaa_tipo_encuestas, gemmaa_evaluaciones, gemmaa_evaluadores ");
         qry.append(" WHERE gemmaa_evaluaciones.id_evaluacion = " + id_evaluacion + " ");
         qry.append(" and gemmaa_evaluadores.id_evaluacion = gemmaa_evaluaciones.id_evaluacion ");
@@ -232,9 +232,9 @@ public class ReportesDAO {
                 consulta.setId_evaluador(rs.getInt(3));
                 consulta.setFinalizo(rs.getString(4));
                 consulta.setFecha(rs.getString(5));
+                consulta.setNombre_completo(UtilBO.getInstance().getNombreCompleto(rs.getInt(1)));
                 evaluadores.add(consulta);
             }
-
 
         } catch (Exception ex) {
 
@@ -255,7 +255,6 @@ public class ReportesDAO {
         return encuesta;
     }
 
-
     public List<Number> buscarIdEvaluacionesEmpleado(String nombre_rpe) {
         Informix q1 = new Informix("GEMMAA360", "Informix/GEMMAA360");
         ResultSet rs = null;
@@ -271,8 +270,6 @@ public class ReportesDAO {
             qry.append(" AND (pers.appat matches '*" + word + "*' or pers.apmat matches '*" + word + "*'  OR pers.nombre matches '*" + word + "*' OR pers.rpe matches '*" + word + "*') ");
         }
 
-
-
         try {
             q1.setQry(qry.toString());
             q1.setPreparaSelect();
@@ -280,7 +277,8 @@ public class ReportesDAO {
 
             while (rs.next()) {
                 Number consulta = rs.getInt(1);
-                idEvaluaciones.add(consulta);
+                if (!idEvaluaciones.contains(consulta))
+                    idEvaluaciones.add(consulta);
             }
 
 
@@ -292,4 +290,3 @@ public class ReportesDAO {
         return idEvaluaciones;
     }
 }
-

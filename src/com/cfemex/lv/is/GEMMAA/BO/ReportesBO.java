@@ -69,6 +69,7 @@ public class ReportesBO {
         return grupoEvaluacion;
     }
 
+
     public GrupoEvaluacion getGrupoEvaluacionSimple(int id_evaluacion) {
         GrupoEvaluacion grupoEvaluacion = ReportesDAO.getInstance().getDatosEvaluacion(id_evaluacion);
         grupoEvaluacion.setEvaluadores(ReportesDAO.getInstance().getEvaluadoresDeEvaluacionSimple(id_evaluacion));
@@ -79,11 +80,12 @@ public class ReportesBO {
         return grupoEvaluacion;
     }
 
+
     public List<GrupoEvaluacion> getGruposEvaluacionEmpleado(String nombre_rpe) {
         List<Number> idEvaluaciones = ReportesDAO.getInstance().buscarIdEvaluacionesEmpleado(nombre_rpe);
         List<GrupoEvaluacion> grupos = new ArrayList<GrupoEvaluacion>();
         for (Number n : idEvaluaciones) {
-            grupos.add(getGrupoEvaluacion(n.intValue()));
+            grupos.add(getGrupoEvaluacionSimple(n.intValue()));
         }
         return grupos;
     }

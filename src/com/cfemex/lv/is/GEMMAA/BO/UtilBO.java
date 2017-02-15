@@ -24,5 +24,8 @@ public class UtilBO {
         return UtilDAO.getInstance().getInfoEvaluado(nip);
     }
 
+    public String getNombreCompleto(int nip) {
+        return UtilDAO.getInstance().getNombreCompleto(nip);
+    }
 
 }

@@ -57,4 +57,33 @@ public class UtilDAO {
         }
         return ev;
     }
+
+    public String getNombreCompleto(int nip) {
+        Informix q1 = new Informix("GEMMAA360", "Informix/Libsflex");
+        String nombre = null;
+        ResultSet rs;
+
+        StringBuilder qry = new StringBuilder();
+        qry.append(" SELECT trim(pers.appat) || ' '|| trim(pers.apmat) || ' '|| trim(pers.nombre)");
+        qry.append(" FROM empl, pers ");
+        qry.append(" WHERE empl.rpe = pers.rpe ");
+        qry.append(" AND empl.nip = " + nip + "; ");
+
+        try {
+            q1.setQry(qry.toString());
+            q1.setPreparaSelect();
+            rs = q1.getSelect();
+
+            while (rs.next()) {
+                nombre = rs.getString(1);
+            }
+
+
+        } catch (Exception ex) {
+
+        } finally {
+            q1.desconectarBD();
+        }
+        return nombre;
+    }
 }
