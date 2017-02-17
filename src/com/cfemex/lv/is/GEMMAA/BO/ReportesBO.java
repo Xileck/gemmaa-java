@@ -48,7 +48,7 @@ public class ReportesBO {
         List<GrupoEvaluacion> evaluaciones = new ArrayList<GrupoEvaluacion>();
         for (Number id : idEvaluaciones) {
             GrupoEvaluacion evaluacion = ReportesBO.getInstance().getGrupoEvaluacionSimple(id.intValue());
-            evaluacion.setEvaluado(EmpleadoDAO.getInstance().seleccionarEmpleado(UtilDAO.getInstance().getInfoEvaluado(nip).getRpe()));
+            evaluacion.setEvaluado(EmpleadoDAO.getInstance().seleccionarEmpleado(UtilDAO.getInstance().getInfoEvaluado(evaluacion.getNip_de_evaluado()).getRpe()));
             evaluaciones.add(evaluacion);
         }
         return evaluaciones;

@@ -1,9 +1,6 @@
 package com.cfemex.lv.is.GEMMAA.DAO;
 
-import com.cfemex.lv.is.GEMMAA.Evaluacion;
-import com.cfemex.lv.is.GEMMAA.EvaluacionPendiente;
-import com.cfemex.lv.is.GEMMAA.Evaluador;
-import com.cfemex.lv.is.GEMMAA.TipoEncuesta;
+import com.cfemex.lv.is.GEMMAA.*;
 import com.cfemex.lv.libs.informix.Informix;
 
 import java.sql.ResultSet;
@@ -41,6 +38,40 @@ public class EvaluacionDAO {
 
     }
 
+    /* Checa si un grupo de evaluacion termino, de ser asi llama a la funcion grupo
+       evaluacion terminado y pone finalizada la evaluacion en la base de datos */
+    public boolean checarSiGrupoEvaluacionTermino(int id_evaluacion) {
+        List<Evaluador> evaluadores = ReportesDAO.getInstance().getEvaluadoresDeEvaluacionSimple(id_evaluacion);
+        boolean termino = true;
+
+        for (Evaluador e : evaluadores) {
+            if (e.getFinalizo() == "f")
+                termino = false;
+        }
+        if (termino && evaluadores.size() > 0)
+            grupoEvaluacionTerminado(id_evaluacion);
+        return evaluadores.size() > 0 ? termino : false;
+    }
+
+    /* Asigna a verdadero el campo de finalizada a un grupo de evaluacion en gemmaa_Evaluaciones */
+    public void grupoEvaluacionTerminado(int id_evaluacion) {
+        Informix q1 = new Informix("GEMMAA360", "Informix/GEMMAA360");
+        StringBuilder qry = new StringBuilder();
+
+        qry.append(" UPDATE gemmaa_evaluaciones ");
+        qry.append(" SET  finalizada = 't' ");
+        qry.append(" WHERE gemmaa_evaluaciones.id_evaluacion = " + id_evaluacion + "; ");
+
+        try {
+            q1.setQrypreparaUpdate(qry.toString());
+            q1.getUpdate();
+        } catch (Exception ex) {
+
+        } finally {
+            q1.desconectarBD();
+        }
+    }
+
     public void asignarEvaluador(Evaluador _evaluador) {
         Informix q1 = new Informix("GEMMAA360", "Informix/GEMMAA360");
         StringBuilder qry = new StringBuilder();
@@ -56,6 +87,7 @@ public class EvaluacionDAO {
             q1.desconectarBD();
         }
     }
+
     public boolean evaluacionFinalizada(int id_evaluador) {
         Informix q1 = new Informix("GEMMAA360", "Informix/GEMMAA360");
         boolean resultado = false;
@@ -85,6 +117,7 @@ public class EvaluacionDAO {
         }
         return resultado;
     }
+
     public List<EvaluacionPendiente> evaluacionesPendientes(int nip_evaluador) {
         Informix q1 = new Informix("GEMMAA360", "Informix/GEMMAA360");
         EvaluacionPendiente evaluacionPendiente = null;

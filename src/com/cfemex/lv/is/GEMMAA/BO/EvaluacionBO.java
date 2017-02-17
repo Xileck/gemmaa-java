@@ -31,5 +31,8 @@ public class EvaluacionBO {
         return EvaluacionDAO.getInstance().evaluacionFinalizada(id_evaluacion);
     }
 
+    public boolean checarSiGrupoEvaluacionTermino(int id_evaluacion) {
+        return EvaluacionDAO.getInstance().checarSiGrupoEvaluacionTermino(id_evaluacion);
+    }
 }
 
