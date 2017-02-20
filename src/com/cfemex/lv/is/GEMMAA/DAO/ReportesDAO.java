@@ -173,6 +173,24 @@ public class ReportesDAO {
 
     }
 
+    public void updatePonderado(int id_evaluacion, int id_ponderado) {
+        Informix q1 = new Informix("GEMMAA360", "Informix/GEMMAA360");
+        StringBuilder qry = new StringBuilder();
+
+        qry.append(" update gemmaa_evaluaciones ");
+        qry.append(" set idp = " + id_ponderado + " ");
+        qry.append(" where id_evaluacion = " + id_evaluacion + "; ");
+
+        try {
+            q1.setQrypreparaUpdate(qry.toString());
+            q1.getInsert();
+        } catch (Exception ex) {
+
+        } finally {
+            q1.desconectarBD();
+        }
+    }
+
     public List<Evaluador> getEvaluadoresDeEvaluacion(int id_evaluacion) {
         Informix q1 = new Informix("GEMMAA360", "Informix/GEMMAA360");
         ResultSet rs = null;

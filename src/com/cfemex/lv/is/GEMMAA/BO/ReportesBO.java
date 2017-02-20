@@ -1,15 +1,12 @@
 package com.cfemex.lv.is.GEMMAA.BO;
 
 import com.cfemex.lv.EmpleadoDAO;
-import com.cfemex.lv.is.GEMMAA.DAO.BitacoraDAO;
 import com.cfemex.lv.is.GEMMAA.DAO.ReportesDAO;
 import com.cfemex.lv.is.GEMMAA.DAO.UtilDAO;
 import com.cfemex.lv.is.GEMMAA.Encuesta;
 import com.cfemex.lv.is.GEMMAA.Evaluador;
 import com.cfemex.lv.is.GEMMAA.GrupoEvaluacion;
 import com.cfemex.lv.is.GEMMAA.Promedios;
-import com.cfemex.lv.is.apps.intranet.Empl;
-import com.cfemex.lv.is.apps.intranet.UsuarioDAO;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -80,7 +77,6 @@ public class ReportesBO {
         return grupoEvaluacion;
     }
 
-
     public List<GrupoEvaluacion> getGruposEvaluacionEmpleado(String nombre_rpe) {
         List<Number> idEvaluaciones = ReportesDAO.getInstance().buscarIdEvaluacionesEmpleado(nombre_rpe);
         List<GrupoEvaluacion> grupos = new ArrayList<GrupoEvaluacion>();
@@ -88,5 +84,9 @@ public class ReportesBO {
             grupos.add(getGrupoEvaluacionSimple(n.intValue()));
         }
         return grupos;
+    }
+
+    public void updatePonderado(int id_evaluacion, int id_ponderado) {
+        ReportesDAO.getInstance().updatePonderado(id_evaluacion, id_ponderado);
     }
 }
