@@ -64,9 +64,9 @@ public class UtilDAO {
         ResultSet rs;
 
         StringBuilder qry = new StringBuilder();
-        qry.append(" SELECT trim(pers.appat) || ' '|| trim(pers.apmat) || ' '|| trim(pers.nombre)");
-        qry.append(" FROM empl, pers ");
-        qry.append(" WHERE empl.rpe = pers.rpe ");
+        qry.append(" SELECT trim(pers1.appat) || ' '|| trim(pers1.apmat) || ' '|| trim(pers1.nombre)");
+        qry.append(" FROM empl, pers1 ");
+        qry.append(" WHERE empl.nip = pers1.nip ");
         qry.append(" AND empl.nip = " + nip + "; ");
 
         try {

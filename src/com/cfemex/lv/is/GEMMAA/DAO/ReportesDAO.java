@@ -280,12 +280,12 @@ public class ReportesDAO {
         String[] words = nombre_rpe.toUpperCase().split(" ");
         StringBuilder qry = new StringBuilder();
         qry.append(" SELECT gemmaa_evaluaciones.id_evaluacion ");
-        qry.append(" FROM pers, empl, gemmaa_evaluaciones, gemmaa_evaluadores ");
-        qry.append(" WHERE pers.rpe = empl.rpe ");
+        qry.append(" FROM pers1, empl, gemmaa_evaluaciones, gemmaa_evaluadores ");
+        qry.append(" WHERE pers1.nip = empl.nip ");
         qry.append(" AND gemmaa_evaluadores.nip_evaluador = empl.nip ");
         qry.append(" AND gemmaa_evaluaciones.id_evaluacion = gemmaa_evaluadores.id_evaluacion ");
         for (String word : words) {
-            qry.append(" AND (pers.appat matches '*" + word + "*' or pers.apmat matches '*" + word + "*'  OR pers.nombre matches '*" + word + "*' OR pers.rpe matches '*" + word + "*') ");
+            qry.append(" AND (pers1.appat matches '*" + word + "*' or pers1.apmat matches '*" + word + "*'  OR pers1.nombre matches '*" + word + "*' OR empl.rpe matches '*" + word + "*') ");
         }
 
         try {
